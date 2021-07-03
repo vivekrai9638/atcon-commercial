@@ -2069,15 +2069,15 @@ article .align-right {
   /* transform: translateX(-50%); */
 }
 
+.controls {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 0rem !important;
+}
+
 .dots {
   display: inline-block;
-  /* // height: 2rem; */
-  /* // width: 8rem; */
-  position: absolute;
-  /* // background-color: red; */
-  left: 50%;
-  transform: translateX(-50%);
-  top: 92%;
 }
 
 .dots__dot {
@@ -2100,7 +2100,7 @@ article .align-right {
   font-weight: bolder;
   opacity: 0.6;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  position: absolute;
+  display: inline-block;
 }
 .slider__btn--right {
   top: 92%;
@@ -2110,7 +2110,7 @@ article .align-right {
   width: 4rem;
   color: #ff9800;
   border-radius: 30% !important;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -2124,7 +2124,7 @@ article .align-right {
   width: 4rem;
   border-radius: 30% !important;
   color: #ff9800;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
